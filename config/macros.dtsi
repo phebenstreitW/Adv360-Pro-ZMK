@@ -1,3 +1,9 @@
+macro_standard: macro_standard{
+compatible = "zmk,behavior-macro";
+label = "macro_standard";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&kp H>, <&kp O>, <&sk RCTRL>, <&kp NUMBER_3>, <&kp AT_SIGN>, <&kp POUND>;
+};
 macro_accm: macro_accm{
 compatible = "zmk,behavior-macro";
 label = "macro_accm";
